@@ -19,6 +19,8 @@ public class Main {
             bonus = 0;
         }
 
+        System.out.println(initialAccount + replenishment + bonus);
+
 
     }
 }
