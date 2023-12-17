@@ -11,7 +11,6 @@ public class Main {
         } else {
             bonus = 0;
         }
-        System.out.println(bonus);
 
         if (replenishment >= 1050) {
             bonus = replenishment / 100;
@@ -19,6 +18,7 @@ public class Main {
             bonus = 0;
         }
 
+        System.out.println(bonus);
         System.out.println(initialAccount + replenishment + bonus);
 
 
